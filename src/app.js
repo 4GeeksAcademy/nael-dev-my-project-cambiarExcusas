@@ -33,6 +33,6 @@ const joinPhrase = () => {
 
 window.onload = function () {
   //write your code here
-  let unitedPhrase = document.getElementById("excuse");
+  let unitedPhrase = document.getElementById("generate-random-excuse");
   unitedPhrase.innerHTML = joinPhrase();
 };
